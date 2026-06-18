@@ -32,7 +32,7 @@ Dataset Used:
 
 # Architecture
 
-![Architecture](assets/disaster_architecture_diagram.png)
+![Architecture](https://raw.githubusercontent.com/Ritikrupam/Disaster-Damage-Assessment-Using-Satellite-Imagery/main/assets/disaster_architecture_diagram.png)
 
 ---
 
