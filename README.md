@@ -1,7 +1,3 @@
-# TEST
-
-<img src="assets/attention_unet.png" width="900">
-
 # Disaster Damage Assessment using Satellite Imagery
 
 ## Overview
@@ -36,7 +32,9 @@ Dataset Used:
 
 # Architecture
 
-![Architecture](https://raw.githubusercontent.com/Ritikrupam/Disaster-Damage-Assessment-Using-Satellite-Imagery/main/assets/disaster_architecture_diagram.png)
+<h1>TEST</h1>
+
+<img src="https://raw.githubusercontent.com/Ritikrupam/Disaster-Damage-Assessment-Using-Satellite-Imagery/main/assets/attention_unet.png" width="900">
 
 ---
 
