@@ -2,9 +2,19 @@
 
 ## Overview
 
-This project uses Deep Learning to automatically detect and classify disaster-damaged buildings from satellite imagery.
+This project focuses on automatic disaster damage assessment using Deep Learning and Computer Vision techniques on satellite imagery.
 
-The system leverages xBD/xView2 datasets and advanced segmentation networks for building localization and damage assessment.
+The system performs:
+
+- Building Localization
+- Damage Classification
+- Semantic Segmentation
+- Post-Disaster Analysis
+
+Dataset Used:
+
+- xBD Dataset
+- xView2 Dataset
 
 ---
 
@@ -16,29 +26,23 @@ The system leverages xBD/xView2 datasets and advanced segmentation networks for 
 - Attention U-Net
 - Siamese Network
 - DeepLabV3+
-- ResNet-based Segmentation
+- ResNet-Based Segmentation
 
 ---
 
-## Dataset
+# Architecture
 
-xBD / xView2 Disaster Dataset
-
----
-
-## Architecture
-
-![Architecture](assets/disaster_architecture_diagram.jpg)
+![Architecture](assets/disaster_architecture_diagram.png)
 
 ---
 
-## Attention U-Net Architecture
+# Attention U-Net Architecture
 
 ![Attention U-Net](assets/attention_unet.png)
 
 ---
 
-## Performance Metrics
+# Performance Metrics
 
 | Metric | Value |
 |----------|----------|
@@ -53,41 +57,66 @@ xBD / xView2 Disaster Dataset
 
 ---
 
-## Segmentation Results
+# Segmentation Results
+
+The model successfully localizes and segments damaged structures from satellite imagery.
 
 ![Segmentation Results](assets/segmentation_output.png)
 
 ---
 
-## Damage Classification Map
+# Damage Classification Map
+
+Damage categories:
+
+- No Damage
+- Minor Damage
+- Major Damage
+- Destroyed
 
 ![Damage Map](assets/damage_map.png)
 
 ---
 
-## U-Net Architecture
+# U-Net Architecture
 
-![UNet](assets/unet.jpeg)
+![UNet](assets/unet.png)
 
 ---
 
-## Technologies Used
+# Technologies Used
 
 - Python
 - TensorFlow
 - Keras
 - OpenCV
 - NumPy
+- Pandas
 - Matplotlib
 - Deep Learning
 - Computer Vision
-- Satellite Image Analysis
 
 ---
 
-## Research Report
+# Project Highlights
 
-Full project report is available in:
+✅ Satellite Image Analysis
+
+✅ Building Damage Detection
+
+✅ Semantic Segmentation
+
+✅ Attention Mechanism Integration
+
+✅ Disaster Impact Assessment
+
+✅ Deep Learning Based Localization
+
+---
+
+# Research Report
+
+Complete project documentation is available inside:
 
 ```text
 paper/
@@ -95,8 +124,13 @@ paper/
 
 ---
 
-## Author
+# Author
 
-**Ritik Rupam Nanda**
+### Ritik Rupam Nanda
 
-AI/ML Engineer | Computer Vision | Deep Learning
+AI/ML Engineer
+
+- Deep Learning
+- Computer Vision
+- Explainable AI
+- Satellite Image Analysis
